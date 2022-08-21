@@ -159,12 +159,14 @@ Navbar
 nav {
   background: var(--clr-white);
   box-shadow: var(--light-shadow);
+  background-color: #fff;
 }
 .nav-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
+  background-color: #fff;
 }
 .nav-toggle {
   font-size: 1.5rem;
@@ -189,6 +191,7 @@ nav {
   display: block;
   padding: 0.5rem 1rem;
   transition: var(--transition);
+  background-color: #fff;
 }
 .links a:hover {
   background: var(--clr-primary-8);
